@@ -1,0 +1,31 @@
+Source: mnemo2
+Section: web
+Priority: optional
+Maintainer: Horde Maintainers <pkg-horde-hackers@lists.alioth.debian.org>
+Uploaders: Carl Fürstenberg <carl@excito.com>, Ola Lundqvist <opal@debian.org>, Lionel Elie Mamane <lmamane@debian.org>, Gregory Colpart (evolix) <reg@evolix.fr>
+Build-Depends: debhelper (>= 7.2)
+Vcs-Arch: http://arch.debian.org/arch/pkg-horde/2006/mnemo--sid--2
+Vcs-Browser: http://arch.debian.org/cgi-bin/archzoom.cgi/pkg-horde-hackers%40lists.alioth.debian.org--2006/mnemo?expand
+Standards-Version: 3.8.4
+Homepage: http://www.horde.org/mnemo/
+
+Package: mnemo2
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, horde3, mnemo2-base
+Description: notes/memos component for Horde Framework
+ Mnemo is the Horde notes and memos application.  It lets users keep free-text
+ notes and other bits of information which doesn't fit as a contact, a todo
+ item, an event, etc.  It is very similar in functionality to the Palm Memo
+ application.
+
+Package: mnemo2-base
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, horde3-base
+Recommends: php5-mysql | php5-pgsql
+Description: notes/memos component for Horde Framework, base files
+ Mnemo is the Horde notes and memos application.  It lets users keep free-text
+ notes and other bits of information which doesn't fit as a contact, a todo
+ item, an event, etc.  It is very similar in functionality to the Palm Memo
+ application.
+ .
+ This package contains the base files.

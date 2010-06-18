@@ -1,0 +1,11 @@
+js /usr/share/horde3/mnemo
+lib /usr/share/horde3/mnemo
+locale /usr/share/horde3/mnemo
+note /usr/share/horde3/mnemo
+notepads /usr/share/horde3/mnemo
+templates /usr/share/horde3/mnemo
+themes /usr/share/horde3/mnemo
+
+*.php /usr/share/horde3/mnemo
+
+docs/CREDITS /usr/share/horde3/mnemo/docs
