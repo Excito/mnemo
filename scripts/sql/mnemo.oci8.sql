@@ -1,4 +1,4 @@
--- $Horde: mnemo/scripts/sql/mnemo.oci8.sql,v 1.1.2.12 2009-10-20 21:44:35 jan Exp $
+-- $Horde: mnemo/scripts/sql/mnemo.oci8.sql,v 1.1.2.12 2009/10/20 21:44:35 jan Exp $
 
 CREATE TABLE mnemo_memos (
     memo_owner      VARCHAR2(255) NOT NULL,

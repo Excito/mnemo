@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr_FR\n"
 "Report-Msgid-Bugs-To: dev@lists.horde.org\n"
-"POT-Creation-Date: 2009-05-22 08:29+0200\n"
-"PO-Revision-Date: 2009-05-22 08:29+0200\n"
+"POT-Creation-Date: 2010-09-30 13:13+0200\n"
+"PO-Revision-Date: 2009-11-13 11:02+0100\n"
 "Last-Translator: Yannick Sebastia <yannick.sebastia@ecole-navale.fr>\n"
 "Language-Team: Francais <i18n@lists.horde.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,30 +32,30 @@ msgstr "%s caractères"
 msgid "%s file successfully imported"
 msgstr "%s fichiers importés avec succès"
 
-#: lib/Mnemo.php:451 lib/Forms/DeleteNotepad.php:86
+#: lib/Mnemo.php:457 lib/Forms/DeleteNotepad.php:86
 #, php-format
 msgid "%s's Notepad"
 msgstr "Bloc-notes de %s"
 
-#: memo.php:200
+#: memo.php:237
 msgid "Access denied deleting note."
 msgstr "Suppression de la note interdite."
 
-#: memo.php:143 memo.php:146
+#: memo.php:180 memo.php:183
 msgid "Access denied moving the note."
 msgstr "Accès refusé en déplaçant la note."
 
-#: memo.php:120
+#: memo.php:135
 #, php-format
 msgid "Access denied saving note to %s."
 msgstr "Interdiction d'enregistrer la note vers %s."
 
-#: memo.php:118
+#: memo.php:133
 #, php-format
 msgid "Access denied saving note: %s"
 msgstr "Interdiction d'enregistrer la note: %s."
 
-#: config/prefs.php.dist:70
+#: config/prefs.php.dist:69
 msgid "Ascending"
 msgstr "Croissant"
 
@@ -111,11 +111,11 @@ msgstr "Décrypter"
 msgid "Default Notepad"
 msgstr "Bloc-notes par défaut :"
 
-#: config/prefs.php.dist:61
+#: config/prefs.php.dist:60
 msgid "Default sorting criteria:"
 msgstr "Critère de tri par défaut :"
 
-#: config/prefs.php.dist:72
+#: config/prefs.php.dist:71
 msgid "Default sorting direction:"
 msgstr "Sens du tri par défaut :"
 
@@ -141,11 +141,11 @@ msgstr "Comportement du bouton de suppression"
 msgid "Delete this note"
 msgstr "Supprimer cette note"
 
-#: config/prefs.php.dist:71
+#: config/prefs.php.dist:70
 msgid "Descending"
 msgstr "Décroissant"
 
-#: lib/Forms/EditNotepad.php:44 lib/Forms/CreateNotepad.php:37
+#: lib/Forms/CreateNotepad.php:37 lib/Forms/EditNotepad.php:44
 msgid "Description"
 msgstr "Description"
 
@@ -158,7 +158,7 @@ msgstr "N'a pas trouvé la note %s"
 msgid "Display Options"
 msgstr "Options d'affichage"
 
-#: config/prefs.php.dist:117
+#: config/prefs.php.dist:116
 msgid "Do you want to confirm deleting entries?"
 msgstr "Voulez-vous confirmer la suppression des entrées ?"
 
@@ -186,7 +186,7 @@ msgstr "Modifier la note"
 msgid "Edit categories and colors"
 msgstr "Modifier les catégories et les couleurs."
 
-#: memo.php:104
+#: memo.php:118 memo.php:149
 #, php-format
 msgid "Edit: %s"
 msgstr "Modifier: \"%s\""
@@ -252,6 +252,11 @@ msgstr "Listes de menu"
 msgid "More Options..."
 msgstr "Plus d'options..."
 
+#: lib/api.php:507
+msgid "Multiple iCalendar components found; only one vNote is supported."
+msgstr ""
+"Plusieurs composants iCalendar trouvés ; seulement une vNote est supportée."
+
 #: templates/panel.inc:50
 msgid "My Notepads:"
 msgstr "Mes bloc-notes :"
@@ -260,11 +265,11 @@ msgstr "Mes bloc-notes :"
 msgid "My Notes"
 msgstr "Mes notes"
 
-#: lib/Forms/EditNotepad.php:43 lib/Forms/CreateNotepad.php:36
+#: lib/Forms/CreateNotepad.php:36 lib/Forms/EditNotepad.php:43
 msgid "Name"
 msgstr "Nom"
 
-#: memo.php:57 lib/Block/tree_menu.php:23
+#: memo.php:95 memo.php:140 lib/Block/tree_menu.php:23
 msgid "New Note"
 msgstr "Nouvelle note"
 
@@ -272,7 +277,7 @@ msgstr "Nouvelle note"
 msgid "Next"
 msgstr "Suivant"
 
-#: lib/api.php:337
+#: lib/api.php:320 lib/api.php:500
 msgid "No iCalendar data was found."
 msgstr "Aucune donnée iCalendar n'a été trouvée."
 
@@ -292,11 +297,11 @@ msgstr "Aucune note à afficher"
 msgid "No_te"
 msgstr "No_te"
 
-#: lib/Driver/sql.php:195
+#: lib/Driver/sql.php:198
 msgid "Not found"
 msgstr "Non trouvée"
 
-#: config/prefs.php.dist:59
+#: config/prefs.php.dist:58
 msgid "Note Category"
 msgstr "Catégorie de note"
 
@@ -304,7 +309,7 @@ msgstr "Catégorie de note"
 msgid "Note Details"
 msgstr "Détails de la note"
 
-#: config/prefs.php.dist:58
+#: config/prefs.php.dist:57
 msgid "Note Text"
 msgstr "Texte de la note"
 
@@ -312,16 +317,16 @@ msgstr "Texte de la note"
 msgid "Note _Text"
 msgstr "_Texte de la note"
 
-#: memo.php:67 view.php:56 note/pdf.php:57
+#: view.php:56 memo.php:105 memo.php:145 note/pdf.php:57
 msgid "Note not found."
 msgstr "Note non trouvée"
 
-#: templates/memo/memo.inc:59
-msgid "Note_pad"
-msgstr "_Bloc-notes"
+#: templates/memo/memo.inc:63
+msgid "Note_pad:"
+msgstr "_Bloc-notes:"
 
 #: templates/notepad_list.php:17 templates/list/memo_headers.inc:33
-#: config/prefs.php.dist:60
+#: config/prefs.php.dist:59
 msgid "Notepad"
 msgstr "Bloc-notes"
 
@@ -337,8 +342,8 @@ msgstr "Blocs-notes"
 msgid "Notes Summary"
 msgstr "Sommaire des notes"
 
-#: lib/api.php:212 lib/api.php:252 lib/api.php:285 lib/api.php:315
-#: lib/api.php:402 lib/api.php:470 lib/api.php:499
+#: lib/api.php:195 lib/api.php:235 lib/api.php:268 lib/api.php:298
+#: lib/api.php:385 lib/api.php:453 lib/api.php:482
 msgid "Permission Denied"
 msgstr "Accès refusé"
 
@@ -360,7 +365,7 @@ msgid "Really delete this note?"
 msgstr "Supprimer cette note définitivement ?"
 
 #: lib/Forms/EditNotepad.php:46 templates/panel.inc:68
-#: templates/memo/memo.inc:57
+#: templates/memo/memo.inc:58
 msgid "Save"
 msgstr "Enregistrer"
 
@@ -373,7 +378,7 @@ msgstr "Enregistrer comme PDF"
 msgid "Search"
 msgstr "Recherche"
 
-#: list.php:54
+#: list.php:54 notes/index.php:35
 msgid "Search Results"
 msgstr "Résultats de la recherche"
 
@@ -411,10 +416,6 @@ msgstr "Afficher boutons d'action ?"
 msgid "Show notepad name?"
 msgstr "Afficher le nom du bloc-notes ?"
 
-#: config/prefs.php.dist:49
-msgid "Show notepad options panel?"
-msgstr "Afficher le panneau des options du bloc-notes ?"
-
 #: lib/Block/summary.php:43
 msgid "Show notes from these categories"
 msgstr "Afficher les notes de ces catégories"
@@ -431,7 +432,7 @@ msgstr "Tri selon le texte de la note"
 msgid "Sort by Notepad"
 msgstr "Tri par bloc-notes"
 
-#: memo.php:174
+#: memo.php:211
 #, php-format
 msgid "Successfully saved \"%s\"."
 msgstr "« %s » a été enregistré avec succès."
@@ -450,7 +451,7 @@ msgstr "Le support des bloc-notes n'est actuellement pas disponible."
 msgid "The Notes backend is not currently available: %s"
 msgstr "Le support des bloc-notes n'est actuellement pas disponible : %s"
 
-#: memo.php:197
+#: memo.php:234
 msgid "The note was deleted."
 msgstr "La note a été supprimée."
 
@@ -474,32 +475,32 @@ msgstr "Le bloc-notes \"%s\" a été renommé en \"%s\"."
 msgid "The notepad \"%s\" has been saved."
 msgstr "Le bloc-notes « %s » a été enregistré."
 
+#: memo.php:137
+msgid "The passwords don't match."
+msgstr "Les nouveaux mots de passe ne correspondent pas."
+
 #: data.php:197
 #, php-format
 msgid "There was an error importing the data: %s"
 msgstr "Une erreur est apparue lors de l'importation des données : %s"
 
-#: lib/api.php:331
+#: lib/api.php:314 lib/api.php:494
 msgid "There was an error importing the iCalendar data."
 msgstr "Une erreur s'est produite lors de l'importation des données iCalendar."
 
-#: lib/api.php:518
-msgid "There was an error importing the vNote data."
-msgstr "Une erreur s'est produite lors de l'importation des données vNote."
-
-#: lib/api.php:168
+#: lib/api.php:151
 #, php-format
 msgid "There was an error removing notes for %s. Details have been logged."
 msgstr ""
 "Une erreur est apparue lors de la suppression de la note pour %s. Les "
 "détails ont été journalisés."
 
-#: memo.php:195
+#: memo.php:232
 #, php-format
 msgid "There was an error removing the note: %s"
 msgstr "Une erreur est apparue lors du retrait de la note : %s"
 
-#: memo.php:172
+#: memo.php:209
 #, php-format
 msgid "There was an error saving the note: %s"
 msgstr "Une erreur s'est produite lors de l'enregistrement de la note : %s"
@@ -517,17 +518,17 @@ msgstr "Aucune note à exporter n'a été trouvée."
 msgid "This file format is not supported."
 msgstr "Ce format de fichier n'est pas pris en compte."
 
-#: memo.php:91 view.php:111
+#: view.php:111 memo.php:43
 msgid "This note cannot be decrypted:"
 msgstr "Cette note ne peut être chiffée : "
 
-#: memo.php:83 view.php:103
+#: view.php:103 memo.php:34
 msgid "This note has been encrypted, please provide the password below."
 msgstr ""
 "Cette note a été chiffrée, merci de fournir le mot de passe ci-dessous."
 
-#: memo.php:80 memo.php:88 view.php:100 view.php:108 lib/api.php:408
-#: lib/Driver/sql.php:458 lib/Driver/kolab.php:766
+#: view.php:100 view.php:108 memo.php:30 memo.php:39 lib/api.php:391
+#: lib/Driver/kolab.php:766 lib/Driver/sql.php:461
 msgid "This note has been encrypted."
 msgstr "La note a été chiffrée."
 
@@ -550,13 +551,13 @@ msgstr "Impossible de charger la définition de %s."
 msgid "Unable to save notepad \"%s\": %s"
 msgstr "Impossible de sauvegarder le bloc-notes \"%s\": %s"
 
-#: lib/Mnemo.php:267 lib/Mnemo.php:268 lib/Mnemo.php:282 lib/Mnemo.php:283
+#: lib/Mnemo.php:273 lib/Mnemo.php:274 lib/Mnemo.php:288 lib/Mnemo.php:289
 #: lib/Block/summary.php:107 templates/list/memo_summaries.inc:17
 #: templates/view/memo.inc:27
 msgid "Unfiled"
 msgstr "Hors catégorie"
 
-#: lib/api.php:367 lib/api.php:433 lib/api.php:526
+#: lib/api.php:350 lib/api.php:416 lib/api.php:516
 #, php-format
 msgid "Unsupported Content-Type: %s"
 msgstr "Type de contenu non-supporté : %s"
@@ -569,7 +570,7 @@ msgstr "À quel calepin faut-il ajouter les notes ?"
 msgid "You are not allowed to change this notepad."
 msgstr "Vous n'êtes pas autorisé à modifier ce bloc-notes."
 
-#: data.php:42 data.php:129 memo.php:37
+#: data.php:42 data.php:129 memo.php:75
 #, php-format
 msgid "You are not allowed to create more than %d notes."
 msgstr "Vous n'êtes pas autorisé à créer plus de %d notes."
@@ -599,9 +600,13 @@ msgstr "[Mes bloc-notes]"
 msgid "_Body"
 msgstr "_Corps"
 
-#: templates/memo/memo.inc:70 templates/list/memo_headers.inc:41
+#: templates/list/memo_headers.inc:41
 msgid "_Category"
 msgstr "_Catégorie"
+
+#: templates/memo/memo.inc:78
+msgid "_Category:"
+msgstr "_Catégorie:"
 
 #: templates/view/memo.inc:16
 msgid "_Delete"
@@ -611,7 +616,7 @@ msgstr "_Supprimer"
 msgid "_Edit"
 msgstr "Modifi_er"
 
-#: templates/memo/memo.inc:74
+#: templates/memo/memo.inc:84
 msgid "_Encrypt?"
 msgstr "_Chiffrer ?"
 
@@ -619,28 +624,35 @@ msgstr "_Chiffrer ?"
 msgid "_For: "
 msgstr "_Pour: "
 
-#: lib/Mnemo.php:488
+#: lib/Mnemo.php:494
 msgid "_Import/Export"
 msgstr "_Importer/Exporter"
 
-#: lib/Mnemo.php:475
+#: lib/Mnemo.php:481
 msgid "_List Notes"
 msgstr "Afficher _les notes"
 
-#: lib/Mnemo.php:480
+#: lib/Mnemo.php:486
 msgid "_New Note"
 msgstr "_Nouvelle note"
 
-#: templates/memo/memo.inc:21 templates/memo/memo.inc:79
-#: templates/view/memo.inc:52
+#: templates/memo/memo.inc:21 templates/view/memo.inc:52
 msgid "_Password"
 msgstr "_Mot de passe"
 
-#: lib/Mnemo.php:493
+#: templates/memo/memo.inc:89
+msgid "_Password:"
+msgstr "_Mot de passe:"
+
+#: lib/Mnemo.php:499
 msgid "_Print"
 msgstr "Im_primer"
 
-#: lib/Mnemo.php:484
+#: templates/memo/memo.inc:93
+msgid "_Repeat:"
+msgstr "_Répéter:"
+
+#: lib/Mnemo.php:490
 msgid "_Search"
 msgstr "_Recherche"
 

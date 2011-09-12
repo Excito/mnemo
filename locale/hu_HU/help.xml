@@ -1,60 +1,55 @@
 <?xml version="1.0" encoding="iso-8859-2"?>
-<!-- based on $Horde: mnemo/locale/hu_HU/help.xml,v 1.2.12.3 2009-01-06 15:24:59 jan Exp $ -->
-<!-- Mnemo help file, Hungarian translation -->
-<!-- Copyright 2004 Laszlo L. Tornoci -->
-<!-- This file is distributed under the same license as the Mnemo package. -->
-<!-- Latest versions: ftp://xenia.sote.hu/pub/linux/horde/ -->
-
 <help>
 
-<entry id="Overview">
+<entry id="Overview" md5="50ee76138fb08b04b029006053bbadbc" state="uptodate">
     <title>Áttekintés</title>
     <heading>Bevezetés</heading>
     <para>
-    A <i>Notes (Feljegyzések)</i> program lehetővé teszi, hogy számítógépünkön
-a kiragasztható papírlapokra írtakhoz hasonló módon készítsünk feljegyzéseket.
+    A Feljegyzések program lehetővé teszi, hogy számítógépünkön
+a kiragasztható papírlapokhoz hasonló módon készítsünk feljegyzéseket.
 A jegyzetek tárolhatók, módosíthatók, törölhetők és kinyomtathatók. Keresni
-is lehet a feljegyzések tartalmában, melyek kategóriákba is rendezhetők.
+is lehet a feljegyzések tartalmában, a feljegyzések különböző jegyzettömbökbe és kategóriákba is rendezhetők.
+    </para>
+    <para>
+    A feljegyzések a rendszer felhasználóival, illetve másokkal is megoszthatók.
     </para>
 </entry>
 
-<entry id="list-actions">
-    <title>Funkciólista</title>
+<entry id="list-actions" md5="6d592f153bfb5c296de5dfebb428e1ba" state="uptodate">
+    <title>Funkciók</title>
     <heading>Funkciók</heading>
     <para>
-    <i>A feljegyzés törlése</i>. Végleg törli a kiválasztott feljegyzést.
+    "A feljegyzés törlése": végleg törli a kiválasztott feljegyzést.
     </para>
     <para>
-    <i>A feljegyzés módosítása</i>. Lehetővé teszi egy korábban írt feljegyzés
-módosítását.
+    "A feljegyzés módosítása": lehetővé teszi egy korábban írt feljegyzés módosítását.
     </para>
     <para>
-    <i>Vissza a feljegyzések listájához</i>. A feljegyzés megtekintésétől 
-visszavisz az áttekintő oldalra.
+    "Vissza a feljegyzések listájához": a feljegyzés megtekintésétől visszavisz az áttekintő oldalra.
     </para>
 </entry>
 
-<entry id="menu-actions">
-    <title>A menüpontok</title>
-    <heading>A menüpontok</heading>
+<entry id="menu-actions" md5="715a853d93cd3330e4d730b9112c8a82" state="uptodate">
+    <title>Menü</title>
+    <heading>Menü</heading>
     <para>
-    <i>Lista</i>. Felsorolja a feljegyzéseinket.
+    "Feljegyzések": a feljegyzéseink listája.
     </para>
     <para>
-    <i>Új feljegyzés</i>. Ezzel készíthetünk új feljegyzést.
+    "Új feljegyzés": ezzel készíthetünk új feljegyzést.
     </para>
     <para>
-    <i>Keresés</i>. Lehetővé teszi a feljegyzések közötti keresést. Kereshetünk
-a leíró mezők tartalmában, vagy a teljes szövegben is.
+    "Keresés": lehetővé teszi a feljegyzések közötti keresést. Kereshetünk a leíró mezők tartalmában, vagy a teljes szövegben is.
     </para>
     <para>
-    <i>Nyomtatás</i>. Lehetővé teszi a feljegyzés kinyomtatását. A 
-<i>Nyomtatás</i> ikon csak egy adott feljegyzés megtekintésekor jelenik meg 
-a menüsorban.
+    "Import/Export": a megjegyzések az exportálás funkcióval más alkalmazásba vihetők át, az importálással pedig más alkalmazásokból hozhatunk át ide feljegyzéseket.
+    </para>
+    <para>
+    "Nyomtatás". lehetővé teszi a feljegyzés kinyomtatását. A "Nyomtatás" ikon csak egy adott feljegyzés megtekintésekor jelenik meg a menüsorban.
     </para>
 </entry>
 
-<entry id="sorting">
+<entry id="sorting" md5="cca3b1d1c9ed0ec5ab385f82469ddc8f" state="uptodate">
     <title>Sorbarendezés</title>
     <heading>Sorbarendezés</heading>
     <para>

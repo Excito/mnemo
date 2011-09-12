@@ -5,7 +5,7 @@
  * This file defines Mnemo's external API interface.  Other applications can
  * interact with Mnemo through this API.
  *
- * $Horde: mnemo/lib/api.php,v 1.53.2.35 2009-09-04 10:38:37 jan Exp $
+ * $Horde: mnemo/lib/api.php,v 1.53.2.36 2010/05/09 19:00:32 mrubinsk Exp $
  *
  * Copyright 2001-2009 The Horde Project (http://www.horde.org/)
  *
@@ -123,23 +123,6 @@ function _mnemo_removeUserData($user)
             /* ... and delete them. */
             foreach ($uids as $uid) {
                 _mnemo_delete($uid);
-            }
-        }
-
-        /* Now delete history as well. */
-        $history = &Horde_History::singleton();
-        if (method_exists($history, 'removeByParent')) {
-            $histories = $history->removeByParent('mnemo:' . $user);
-        } else {
-            /* Remove entries 100 at a time. */
-            $all = $history->getByTimestamp('>', 0, array(), 'mnemo:' . $user);
-            if (is_a($all, 'PEAR_Error')) {
-                Horde::logMessage($all, __FILE__, __LINE__, PEAR_LOG_ERR);
-            } else {
-                $all = array_keys($all);
-                while (count($d = array_splice($all, 0, 100)) > 0) {
-                    $history->removebyNames($d);
-                }
             }
         }
 
