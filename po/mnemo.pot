@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: dev@lists.horde.org\n"
-"POT-Creation-Date: 2009-09-12 10:09+0200\n"
+"POT-Creation-Date: 2010-09-27 14:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -244,7 +244,7 @@ msgstr ""
 msgid "More Options..."
 msgstr ""
 
-#: lib/api.php:524
+#: lib/api.php:507
 msgid "Multiple iCalendar components found; only one vNote is supported."
 msgstr ""
 
@@ -268,7 +268,7 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: lib/api.php:337 lib/api.php:517
+#: lib/api.php:320 lib/api.php:500
 msgid "No iCalendar data was found."
 msgstr ""
 
@@ -308,7 +308,7 @@ msgstr ""
 msgid "Note _Text"
 msgstr ""
 
-#: view.php:56 memo.php:105 memo.php:145 note/pdf.php:57
+#: memo.php:105 memo.php:145 view.php:56 note/pdf.php:57
 msgid "Note not found."
 msgstr ""
 
@@ -333,8 +333,8 @@ msgstr ""
 msgid "Notes Summary"
 msgstr ""
 
-#: lib/api.php:212 lib/api.php:252 lib/api.php:285 lib/api.php:315
-#: lib/api.php:402 lib/api.php:470 lib/api.php:499
+#: lib/api.php:195 lib/api.php:235 lib/api.php:268 lib/api.php:298
+#: lib/api.php:385 lib/api.php:453 lib/api.php:482
 msgid "Permission Denied"
 msgstr ""
 
@@ -471,11 +471,11 @@ msgstr ""
 msgid "There was an error importing the data: %s"
 msgstr ""
 
-#: lib/api.php:331 lib/api.php:511
+#: lib/api.php:314 lib/api.php:494
 msgid "There was an error importing the iCalendar data."
 msgstr ""
 
-#: lib/api.php:168
+#: lib/api.php:151
 #, php-format
 msgid "There was an error removing notes for %s. Details have been logged."
 msgstr ""
@@ -503,16 +503,16 @@ msgstr ""
 msgid "This file format is not supported."
 msgstr ""
 
-#: view.php:111 memo.php:43
+#: memo.php:43 view.php:111
 msgid "This note cannot be decrypted:"
 msgstr ""
 
-#: view.php:103 memo.php:34
+#: memo.php:34 view.php:103
 msgid "This note has been encrypted, please provide the password below."
 msgstr ""
 
-#: view.php:100 view.php:108 memo.php:30 memo.php:39 lib/api.php:408
-#: lib/Driver/kolab.php:766 lib/Driver/sql.php:461
+#: memo.php:30 memo.php:39 view.php:100 view.php:108 lib/api.php:391
+#: lib/Driver/sql.php:461 lib/Driver/kolab.php:766
 msgid "This note has been encrypted."
 msgstr ""
 
@@ -535,13 +535,13 @@ msgstr ""
 msgid "Unable to save notepad \"%s\": %s"
 msgstr ""
 
-#: templates/view/memo.inc:27 templates/list/memo_summaries.inc:17
+#: templates/list/memo_summaries.inc:17 templates/view/memo.inc:27
 #: lib/Mnemo.php:273 lib/Mnemo.php:274 lib/Mnemo.php:288 lib/Mnemo.php:289
 #: lib/Block/summary.php:107
 msgid "Unfiled"
 msgstr ""
 
-#: lib/api.php:367 lib/api.php:433 lib/api.php:533
+#: lib/api.php:350 lib/api.php:416 lib/api.php:516
 #, php-format
 msgid "Unsupported Content-Type: %s"
 msgstr ""
@@ -554,7 +554,7 @@ msgstr ""
 msgid "You are not allowed to change this notepad."
 msgstr ""
 
-#: data.php:42 data.php:129 memo.php:75
+#: memo.php:75 data.php:42 data.php:129
 #, php-format
 msgid "You are not allowed to create more than %d notes."
 msgstr ""

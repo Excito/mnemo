@@ -1,4 +1,4 @@
--- $Horde: mnemo/scripts/upgrades/2.1_to_2.2.sql,v 1.1.2.3 2009-10-20 21:44:35 jan Exp $
+-- $Horde: mnemo/scripts/upgrades/2.1_to_2.2.sql,v 1.1.2.3 2009/10/20 21:44:35 jan Exp $
 
 CREATE TABLE mnemo_shares (
     share_id INT NOT NULL,

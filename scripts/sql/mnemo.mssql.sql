@@ -1,4 +1,4 @@
--- $Horde: mnemo/scripts/sql/mnemo.mssql.sql,v 1.1.2.8 2009-10-20 21:44:35 jan Exp $
+-- $Horde: mnemo/scripts/sql/mnemo.mssql.sql,v 1.1.2.8 2009/10/20 21:44:35 jan Exp $
 
 CREATE TABLE mnemo_memos (
     memo_owner      VARCHAR(255) NOT NULL,

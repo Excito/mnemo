@@ -1,4 +1,18 @@
 ------
+v2.2.5
+------
+
+[jan] Add upgrade scripts for next-generation SQL share driver.
+
+
+------
+v2.2.4
+------
+
+[mjr] Do not remove history entries when removing user data (Bug #8755).
+
+
+------
 v2.2.3
 ------
 

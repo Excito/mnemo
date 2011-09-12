@@ -1,13 +1,13 @@
 # Mnemo Dutch translation.
 # Copyright 2002 Jan Kuipers.
-# Jan Kuipers <jrkuipers@lauwerscollege.nl>, 2002-2009.
+# Jan Kuipers <jrkuipers@lauwerscollege.nl>, 2002-2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Mneno H3 (2.2.3-cvs)\n"
+"Project-Id-Version: Mneno H3 (2.2.4-cvs)\n"
 "Report-Msgid-Bugs-To: dev@lists.horde.org\n"
-"POT-Creation-Date: 2009-12-14 08:18+0100\n"
-"PO-Revision-Date: 2009-12-14 20:51+0100\n"
+"POT-Creation-Date: 2010-06-11 23:08+0200\n"
+"PO-Revision-Date: 2010-06-12 00:14+0200\n"
 "Last-Translator: Jan Kuipers <jrkuipers@lauwerscollege.nl>\n"
 "Language-Team: Dutch <i18n@lists.horde.org>\n"
 "MIME-Version: 1.0\n"
@@ -245,7 +245,7 @@ msgstr "Menulijst"
 msgid "More Options..."
 msgstr "Meer opties..."
 
-#: lib/api.php:524
+#: lib/api.php:507
 msgid "Multiple iCalendar components found; only one vNote is supported."
 msgstr ""
 "Meerdere iCalendar onderdelen gevonden; slecht één vNote wordt ondersteund."
@@ -270,7 +270,7 @@ msgstr "Nieuwe notitie"
 msgid "Next"
 msgstr "Volgende"
 
-#: lib/api.php:337 lib/api.php:517
+#: lib/api.php:320 lib/api.php:500
 msgid "No iCalendar data was found."
 msgstr "Geen iCalendardata gevonden."
 
@@ -335,8 +335,8 @@ msgstr "Notitieboeken"
 msgid "Notes Summary"
 msgstr "Notitiesamenvatting"
 
-#: lib/api.php:212 lib/api.php:252 lib/api.php:285 lib/api.php:315
-#: lib/api.php:402 lib/api.php:470 lib/api.php:499
+#: lib/api.php:195 lib/api.php:235 lib/api.php:268 lib/api.php:298
+#: lib/api.php:385 lib/api.php:453 lib/api.php:482
 msgid "Permission Denied"
 msgstr "Toegang geweigerd"
 
@@ -477,11 +477,11 @@ msgstr "De wachtwoorden komen niet overeen."
 msgid "There was an error importing the data: %s"
 msgstr "Een fout bij het importeren van de data: %s"
 
-#: lib/api.php:331 lib/api.php:511
+#: lib/api.php:314 lib/api.php:494
 msgid "There was an error importing the iCalendar data."
 msgstr "Een fout bij het importeren van de iCalendardata."
 
-#: lib/api.php:168
+#: lib/api.php:151
 #, php-format
 msgid "There was an error removing notes for %s. Details have been logged."
 msgstr ""
@@ -518,7 +518,7 @@ msgstr "Deze notitie kan niet worden gedecodeerd:"
 msgid "This note has been encrypted, please provide the password below."
 msgstr "Deze notitie is gecodeerd, geef hieronder het wachtwoord, a.u.b."
 
-#: memo.php:30 memo.php:39 view.php:100 view.php:108 lib/api.php:408
+#: memo.php:30 memo.php:39 view.php:100 view.php:108 lib/api.php:391
 #: lib/Driver/kolab.php:766 lib/Driver/sql.php:461
 msgid "This note has been encrypted."
 msgstr "Deze notitie is gecodeerd."
@@ -548,7 +548,7 @@ msgstr "Niet in staat notitieboek \"%s\" op te slaan: %s"
 msgid "Unfiled"
 msgstr "Onbenoemd"
 
-#: lib/api.php:367 lib/api.php:433 lib/api.php:533
+#: lib/api.php:350 lib/api.php:416 lib/api.php:516
 #, php-format
 msgid "Unsupported Content-Type: %s"
 msgstr "Niet ondersteund Content-Type: %s"
